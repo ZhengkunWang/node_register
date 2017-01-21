@@ -27,7 +27,8 @@ p input {
 }
 
 form p {
-    max-width: 300px;
+    max-width: 450px;
+    width: 100%;
     line-height: 50px;
     margin: auto;
 }
@@ -36,7 +37,36 @@ form {
     text-align: center;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+p span {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
 }
+
+p input {
+    width: 80%;
+    border-radius: 20px;
+    border: 1px solid;
+    padding: 5px;
+    border-color: gray;
+}
+
+:focus { outline: none;}
+
+.button {
+    border: 1px solid;
+    font-weight: 200;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button_s {
+    border-radius: 20px;
+    height: 20px;
+    font-size: 16px;
+    width: 80px;
+    text-align: center;
+    padding: 5px 14px;
+    line-height: 20px;
+}
+

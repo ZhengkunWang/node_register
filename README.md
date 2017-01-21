@@ -18,3 +18,4 @@ A demo to use node & csv databse to build a register system.
 1. `database.js` use to access csv database. you can put your queries in this file.
 1. make sure `webpack -w` always runned in command line. it will watch any file changes from `src` folder, and compile your code from es5 to es6.
 1. run `node ./public/server.js` to see what happend.
+* add client side static resource to `src/client` and use the `static/xxxx` path to refer the resource, the `static` is a virtual path mapping to `src/client/`, for example, `<img src='static/img/xxx.png'/>`
